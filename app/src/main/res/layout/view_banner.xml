@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_m"
+    android:paddingBottom="1dp"
+    android:orientation="vertical" >
+
+    <we.video.wevideo.ui.support.banner.BannerLayout
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:autoPlayDuration="5000"
+        app:defaultImage="@mipmap/ic_launcher"
+        app:indicatorMargin="10dp"
+        app:indicatorPosition="rightBottom"
+        app:indicatorShape="rect"
+        app:indicatorSpace="3dp"
+        app:scrollDuration="900"
+        app:selectedIndicatorColor="@color/main_green"
+        app:selectedIndicatorHeight="6dp"
+        app:selectedIndicatorWidth="6dp"
+        app:unSelectedIndicatorColor="@color/gray_m"
+        app:unSelectedIndicatorHeight="6dp"
+        app:unSelectedIndicatorWidth="6dp" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/banner_title_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/translate_black1"
+        android:gravity="left|center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_small"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/iv_default"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="visible"
+        android:layout_below="@+id/tv_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

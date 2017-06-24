@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <we.video.wevideo.ui.support.refresh.Mater.MaterialRefreshLayout
+        android:id="@+id/refreshView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_above="@+id/layout_comment"
+        app:isLoadMore="true"
+        app:overlay="true"
+        app:progress_colors="@array/material_colors"
+        app:progress_size_type="normal"
+        app:wave_color="@color/translate"
+        app:wave_height_type="normal"
+        app:wave_show="true">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"></ListView>
+
+    </we.video.wevideo.ui.support.refresh.Mater.MaterialRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_comment"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="请输入评论"
+            android:textColor="@color/black"
+            android:textColorHint="@color/large_gray" />
+
+        <we.video.wevideo.ui.support.WaveButton
+            android:id="@+id/btn_comment"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:gravity="center"
+            android:background="@drawable/main_blue_btn"
+            android:text="评论"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_normal" />
+
+    </LinearLayout>
+
+</RelativeLayout>

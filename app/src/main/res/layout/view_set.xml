@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/set_info"
+        android:textColor="@color/black"
+        android:textSize="@dimen/title_normal" />
+
+    <RelativeLayout
+        android:id="@+id/layout_push"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_list_selector"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/set_push"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_normal" />
+
+        <we.video.wevideo.ui.support.switchButton.SwitchButton
+            android:id="@+id/sbtn_push"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            app:frameDrawable="@mipmap/switch_frame"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@mipmap/switch_state_mask"
+            app:withTextInterval="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_liuliang"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/bg_list_selector"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/set_liuliang"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_normal" />
+
+        <TextView
+            android:id="@+id/tv_liuliang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/sbtn_liuliang"
+            android:gravity="center"
+            android:text="1.1MB"
+            android:textColor="@color/large_gray"
+            android:textSize="@dimen/title_small" />
+
+        <we.video.wevideo.ui.support.switchButton.SwitchButton
+            android:id="@+id/sbtn_liuliang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            app:frameDrawable="@mipmap/switch_frame"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@mipmap/switch_state_mask"
+            app:withTextInterval="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_cache"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/bg_list_selector"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/set_cache"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_normal" />
+
+        <TextView
+            android:id="@+id/tv_cache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="1.1MB"
+            android:textColor="@color/large_gray"
+            android:textSize="@dimen/title_small" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/set_other_info"
+        android:textColor="@color/black"
+        android:textSize="@dimen/title_normal" />
+
+    <RelativeLayout
+        android:id="@+id/layout_about"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_list_selector"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/set_about"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_contact"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/bg_list_selector"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/set_contact"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_normal" />
+    </RelativeLayout>
+
+</LinearLayout>

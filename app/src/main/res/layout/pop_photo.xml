@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/translate_black"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <we.video.wevideo.ui.support.WaveButton
+            android:id="@+id/btn_photo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:layout_below="@+id/btn_my"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/main_green_btn"
+            android:gravity="center"
+            android:text="@string/photo"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_large" />
+
+        <we.video.wevideo.ui.support.WaveButton
+            android:id="@+id/btn_camera"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:layout_below="@+id/btn_my"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/main_green_btn"
+            android:gravity="center"
+            android:text="@string/camera"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_large" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context="we.video.wevideo.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/index_height">
+
+        <LinearLayout
+            android:id="@+id/layout_left"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/title_left_bg"
+            android:gravity="center">
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:background="@mipmap/ic_leftmenu" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="标题"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_normal" />
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:background="@mipmap/ic_index_logo"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_normal" />
+
+        <LinearLayout
+            android:id="@+id/layout_right"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/title_left_bg"
+            android:gravity="center">
+
+            <View
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:background="@mipmap/ic_index_collect" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_m" />
+
+    <LinearLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/myscrollview"
+    android:layout_width="1249dp"
+    android:layout_height="200dp"
+    android:layout_x="10dp"
+    android:layout_y="500dp"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <we.video.wevideo.ui.support.ScrollGridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"></we.video.wevideo.ui.support.ScrollGridView>
+    </LinearLayout>
+</HorizontalScrollView>

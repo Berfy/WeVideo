@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">微视频</string>
+    <!--提示-->
+    <string name="tip_login">登录后可操作</string>
+    <string name="noset">未设置</string>
+    <string name="request_suc">获取成功</string>
+    <string name="request_upload_error">上传失败</string>
+    <string name="request_upload_suc">上传成功</string>
+    <string name="request_loading">加载中...</string>
+    <string name="request_no_data">没有数据</string>
+    <string name="request_no_more_data">没有更多数据</string>
+    <string name="request_api_error">请求失败,服务器错误</string>
+    <string name="tip_down_refresh">下拉刷新</string>
+    <string name="tip_release_refresh">松开可刷新</string>
+    <string name="tip_mobile_null">请输入手机号</string>
+    <string name="tip_pwd_null">请输入密码</string>
+    <string name="tip_confirm_pwd_null">请输入确认密码</string>
+    <string name="tip_code_null">请输入验证码</string>
+    <string name="tip_code_err">验证码不正确</string>
+    <string name="tip_newpwd_null">请输入新密码</string>
+    <string name="tip_pwd_not_same">两次密码不一致</string>
+    <string name="tip_name_null">请输入姓名</string>
+    <string name="tip_idcard_null">请输入身份证</string>
+    <string name="tip_choose_address">请选择地区</string>
+    <string name="tip_address">请填写详细地址</string>
+    <string name="tip_nick">请填写昵称</string>
+    <string name="tip_mobile_format_error">手机号码不正确</string>
+    <string name="tip_logout">确定退出登录吗?</string>
+    <string name="tip_check_update">有新的版本</string>
+    <string name="tip_check_update_has">已经是最新版本</string>
+    <string name="tip_comment_null">评论不能为空</string>
+    <string name="update">更新</string>
+    <string name="tip_click_exit">再次点击返回键退出</string>
+    <string name="photo">相册</string>
+    <string name="camera">拍照</string>
+    <string name="nologin">未登录</string>
+    <string name="cancel">取消</string>
+
+    <!--引导页-->
+    <string name="jump">跳过</string>
+
+    <!--登录-->
+    <string name="login">登录</string>
+    <string name="tip_login_suc">登录成功</string>
+    <string name="login_hint_user">请输入您的手机号</string>
+    <string name="login_hint_pwd">请输入您的密码</string>
+    <string name="login_mobiler_title">手机号:</string>
+    <string name="login_pwd_title">密码:</string>
+    <string name="login_weixin">微信登录</string>
+    <string name="login_weibo">微博登录</string>
+
+    <!--注册-->
+    <string name="reg">注册</string>
+    <string name="reg_code_title">验证码:</string>
+    <string name="tip_reg_suc">注册成功</string>
+    <string name="reg_code">点击获取</string>
+    <string name="reg_confirm_pwd_title">确认密码:</string>
+
+    <!--找回密码-->
+    <string name="findpwd">找回密码</string>
+    <string name="modifypwd">修改密码</string>
+    <string name="next">下一步</string>
+    <string name="ok">确定</string>
+    <string name="tip_modify_pwd_suc">修改成功</string>
+
+    <string name="index">首页</string>
+    <string name="my">我</string>
+    <!--专辑播放-->
+    <string name="special_tip_null">专辑没有视频</string>
+    <!--专栏详情-->
+    <string name="special_title">专栏名</string>
+    <string name="special_read_title">阅读量</string>
+    <string name="share">分享</string>
+    <string name="collect">收藏</string>
+    <string name="hascollect">已收藏</string>
+    <string name="special_comment">热门评论</string>
+    <string name="special_back_look">往期回顾</string>
+    <string name="special_recommand">同款推荐</string>
+
+    <!--作品详情-->
+    <string name="author_info">作品详情</string>
+    <string name="author_intro">介绍</string>
+    <string name="author_special">专栏视频</string>
+    <string name="author_comment">专栏评论</string>
+
+    <!--我的-->
+    <string name="my_info">我的资料</string>
+    <string name="my_comment">我的评论</string>
+    <string name="my_edit_nick">昵称</string>
+    <string name="my_logout">注销登录</string>
+    <string name="my_collect">我的收藏</string>
+
+    <!--修改昵称-->
+    <string name="hint_nick">请填写昵称</string>
+    <string name="save">保存</string>
+
+    <!--设置-->
+    <string name="set">设置</string>
+    <string name="set_info">设置信息</string>
+    <string name="set_other_info">其他信息</string>
+    <string name="set_push">推送通知</string>
+    <string name="set_liuliang">流量提醒</string>
+    <string name="set_cache">清除缓存</string>
+    <string name="set_about">关于我们</string>
+    <string name="set_contact">联系我们</string>
+
+    <integer-array name="material_colors">
+        <item>@color/main_green</item>
+        <item>@color/red</item>
+        <item>@color/main_blue</item>
+        <item>@color/main_blue_press</item>
+    </integer-array>
+</resources>
